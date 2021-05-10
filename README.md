@@ -6,11 +6,11 @@ There are two kinds of uses:
 2. given a new image, classify it to the corresponding category, and find similar products in the same category. 
 
 ## data
-The data is from [this Kaggle challenge](https://www.kaggle.com/c/uw-cs480-fall20). This Kaggle project is to classify e-commerce products into 27 categories. The data includes categorical features, a noisy text description and a noisy image for each product. 
+The image data is from [this Kaggle challenge](https://www.kaggle.com/c/uw-cs480-fall20). This Kaggle project is to classify e-commerce products into 27 categories. The data includes categorical features, a noisy text description and a noisy image for each product. 
 
 I have implemented the Kaggle project [here](https://github.com/aaazyq/kaggle-Ecommerce_classification) to achive a prediction accuracy over 98%.  In this project I used the classifying model I have built before. 
 
-The **image repository** is the training images (21075 pieces). For each image, it has some features, such as category, gender, season, color etc. 
+The **image repository** is the training images (21075 pieces). For each image, it has some features, such as category, gender, season, color etc. Admittedly the images are a bit noisy and in too small sizes, it is enough to be used for this project.
 
 ## Implementation
 
@@ -35,7 +35,7 @@ Search By Inputting Text Description (there is no specific limit for the input t
 
 It used LSTM to obtain the classifying category. For the training process, please see the training/firststage_text_lstm.ipynb  
 
-<img src="video-demo/searchmodel2.gif" width="60%">
+<img src="video-demo/searchmodel2-2.gif" width="60%">
 
 ## Task 2: Classification Mode
 
@@ -50,3 +50,6 @@ It used CNN (ResNet18) to obtain the classifying category. For the training proc
 Show similar photos in the same cateogories 
 
 <img src="video-demo/2.2.gif" width="60%"> 
+
+==================
+There are still some flaws in this project because of time limited. Thank you for your time!
