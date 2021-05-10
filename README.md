@@ -45,8 +45,8 @@ The default size is 60\*80. If the image is too large, please resize the image t
 
 It used CNN (ResNet18) to obtain the classifying category. For the training process, please see the training/firststage_image_resnet.ipynb
 
-<img src="video-demo/inputimage.gif" width="60%">
+<img src="video-demo/2.1.gif" width="60%">
 
 Show similar photos in the same cateogories 
 
-<img src="video-demo/showsimilarphoto.gif" width="60%"> 
+<img src="video-demo/2.2.gif" width="60%"> 
