@@ -8,17 +8,24 @@ There are two kinds of uses:
 ## data
 The image data is from [this Kaggle challenge](https://www.kaggle.com/c/uw-cs480-fall20). This Kaggle project is to classify e-commerce products into 27 categories. The data includes categorical features, a noisy text description and a noisy image for each product. 
 
+Please download the images and change the file path in code.py 
+
 I have implemented the Kaggle project [here](https://github.com/aaazyq/kaggle-Ecommerce_classification) to achive a prediction accuracy over 98%.  In this project I used the classifying model I have built before. 
 
 The **image repository** is the training images (21075 pieces). For each image, it has some features, such as category, gender, season, color etc. Admittedly the images are a bit noisy and in too small sizes, it is enough to be used for this project.
 
 ## Implementation
 
-I built the User Interface using PyQT5 (with assistance of QT Designer). The code is in ./UI-code. 
+I built the User Interface using PyQT5 (with assistance of QT Designer). The code is in `UI-code`. 
 To run the project, simply run 
 ```
 python code.py
 ```
+Note that the LSTN model is too big to upload in github. Please download it via [this link](https://drive.google.com/file/d/1nt2TMnBUiJO3MN3Klsx7SPSIRMIrWMSh/view?usp=sharing) to the `model` folder. 
+
+<img src="video-demo/run.gif" width="30%">
+
+
 
 ## Task 1: Searching Mode
 
@@ -37,6 +44,8 @@ It used LSTM to obtain the classifying category. For the training process, pleas
 
 <img src="video-demo/searchmodel2-2.gif" width="60%">
 
+**Click the blue button to change from tasks. **
+
 ## Task 2: Classification Mode
 
 Browse an image and classify the category 
@@ -51,6 +60,7 @@ Show similar photos in the same cateogories
 
 <img src="video-demo/2.2.gif" width="60%"> 
 
+**Click the blue button to change from tasks. **
 ==================
 
 There are still some flaws in this project because of time limited. Thank you for your time!
